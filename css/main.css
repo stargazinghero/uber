@@ -209,12 +209,11 @@ nav {
   margin-top: 32px;
 }
 
-.start__list {
-  margin-top: 16px;
-}
-
 .start__item {
   display: flex;
+  justify-content: center;
+
+  margin-top: 35px;
 }
 
 .start__item-thumb {
@@ -236,7 +235,7 @@ nav {
 }
 
 .start__item-block {
-  width: 341px;
+  width: 343px;
 }
 
 .start__item-title {

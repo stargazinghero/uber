@@ -27,12 +27,38 @@ h6 {
   margin-bottom: 0;
 }
 
-.section-title {
+.section__title-block {
+  text-align: center;
+}
+
+.section__title {
+  margin-top: 32px;
   font-weight: 700;
   font-size: 38px;
   line-height: 1.26;
-  text-align: center;
   text-transform: uppercase;
+  color: #222222;
+}
+
+.section__label {
+  display: inline-block;
+  min-width: 112px;
+  padding: 12px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  background: #000000;
+  border: 1px solid transparent;
+}
+
+.section__descr {
+  margin-top: 11px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.24;
   color: #222222;
 }
 
@@ -47,18 +73,18 @@ nav {
   z-index: 999;
 }
 
-.nav-list {
+.nav__list {
   display: flex;
   justify-content: space-between;
   padding: 8px 70px;
   margin: 0;
 }
 
-.nav-list__item:not(:last-child) {
+.nav__list-item:not(:last-child) {
   border-right: 2px dashed black;
 }
 
-.nav-list__link {
+.nav__list-link {
   padding: 9.5px 40px;
   display: block;
   font-weight: 300;
@@ -87,18 +113,18 @@ nav {
   opacity: 0.5;
 }
 
-.subheader-tel {
+.subheader__tel {
   text-align: right;
 }
 
-.subheader-tel__text {
+.subheader__tel-text {
   font-weight: 300;
   font-size: 12px;
   line-height: 1.17;
   color: #ffffff;
 }
 
-.subheader-tel__link {
+.subheader__tel-link {
   font-weight: 400;
   font-size: 22px;
   line-height: 1.5;
@@ -190,25 +216,6 @@ nav {
   padding-bottom: 64px;
 }
 
-.start__btn {
-  display: block;
-  margin: 0 auto;
-  padding: 12px;
-  font-weight: 400;
-  font-size: 11px;
-  line-height: 1;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-
-  background: #000000;
-  border: 1px solid transparent;
-}
-
-.start__title {
-  margin-top: 32px;
-}
-
 .start__item {
   display: flex;
   justify-content: center;
@@ -251,4 +258,13 @@ nav {
   font-size: 15px;
   line-height: 1.24;
   color: #202020;
+}
+
+.skills {
+  padding-top: 48px;
+  padding-bottom: 80px;
+  background-image: url('../images/bg/mobile_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

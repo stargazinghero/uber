@@ -10,30 +10,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./css/bootstrap-reboot.min.css" />
     <link rel="stylesheet" href="./css/bootstrap-grid.min.css" />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
       <nav>
         <div class="container">
-          <ul class="nav-list list">
-            <li class="nav-list__item">
-              <a href="#" class="nav-list__link link">Главная</a>
+          <ul class="nav__list list">
+            <li class="nav__list-item">
+              <a href="#" class="nav__list-link link">Главная</a>
             </li>
-            <li class="nav-list__item">
-              <a href="#" class="nav-list__link link">Со своим автомобилем</a>
+            <li class="nav__list-item">
+              <a href="#" class="nav__list-link link">Со своим автомобилем</a>
             </li>
-            <li class="nav-list__item">
-              <a href="#" class="nav-list__link link">На автомобиле компании</a>
+            <li class="nav__list-item">
+              <a href="#" class="nav__list-link link">На автомобиле компании</a>
             </li>
-            <li class="nav-list__item">
-              <a href="#" class="nav-list__link link">Требования</a>
+            <li class="nav__list-item">
+              <a href="#" class="nav__list-link link">Требования</a>
             </li>
-            <li class="nav-list__item">
-              <a href="#" class="nav-list__link link">Контакты</a>
+            <li class="nav__list-item">
+              <a href="#" class="nav__list-link link">Контакты</a>
             </li>
-            <li class="nav-list__item">
-              <a href="#" class="nav-list__link link">Оставить заявку</a>
+            <li class="nav__list-item">
+              <a href="#" class="nav__list-link link">Оставить заявку</a>
             </li>
           </ul>
         </div>
@@ -45,9 +45,9 @@
               <a href="#" class="logo__link link"><img class="logo__img" src="./images/logo/logo.png" alt="Логотип" width="162px" height="32px" /> </a>
               <p class="logo__text">Официальный партнер Uber в Киеве</p>
             </div>
-            <div class="col-md-2 offset-md-3 subheader-tel">
-              <b class="subheader-tel__text">Звоните нам ежедневно</b>
-              <a class="subheader-tel__link link" href="tel:+380971111111">+380971111111</a>
+            <div class="col-md-2 offset-md-3 subheader__tel">
+              <b class="subheader__tel-text">Звоните нам ежедневно</b>
+              <a class="subheader__tel-link link" href="tel:+380971111111">+380971111111</a>
             </div>
             <div class="col-md-2">
               <button class="subheader__btn" type="button">заказать звонок</button>
@@ -74,8 +74,10 @@
     </section>
     <section class="start">
       <div class="container">
-        <button class="start__btn">преимущества</button>
-        <h2 class="start__title section-title">8 причин начать работать с нами</h2>
+        <div class="section__title-block">
+          <h2 class="section__label">преимущества</h2>
+          <h3 class="start__title section__title">8 причин начать работать с нами</h3>
+        </div>
         <div class="start__list">
           <div class="row">
             <div class="col-md-6 start__item">
@@ -167,6 +169,15 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills">
+      <div class="container">
+        <div class="section__title-block">
+          <h2 class="section__label">возможности</h2>
+          <h3 class="section__title">мобильное приложение убер</h3>
+          <p class="section__descr">Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон</p>
         </div>
       </div>
     </section>
